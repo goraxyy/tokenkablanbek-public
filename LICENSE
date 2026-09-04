@@ -1,21 +1,15 @@
-MIT License
+Copyright (c) 2026 Ali Kablanbek. All rights reserved.
 
-Copyright (c) 2026 Ali Kablanbek
+This repository is published for viewing only, as a work sample.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+No licence or right is granted to use, copy, modify, merge, publish,
+distribute, sublicense, sell, or create derivative works from this software
+or any part of it. Viewing the source through GitHub's interface, and the
+temporary copying that a web browser or a `git clone` performs incidentally
+in order to display it, are permitted; nothing further is.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+The source is provided "as is", without warranty of any kind, express or
+implied, and without any commitment to maintenance, support, or fitness for
+any purpose.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+For any other use, ask first.

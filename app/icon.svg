@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="32" fill="#fce4f0"/>
+  <!-- Flower petals -->
+  <ellipse cx="32" cy="18" rx="5" ry="9" fill="#f9a8d4" transform="rotate(0 32 32)"/>
+  <ellipse cx="32" cy="18" rx="5" ry="9" fill="#f9a8d4" transform="rotate(45 32 32)"/>
+  <ellipse cx="32" cy="18" rx="5" ry="9" fill="#f9a8d4" transform="rotate(90 32 32)"/>
+  <ellipse cx="32" cy="18" rx="5" ry="9" fill="#f9a8d4" transform="rotate(135 32 32)"/>
+  <ellipse cx="32" cy="18" rx="5" ry="9" fill="#f9a8d4" transform="rotate(180 32 32)"/>
+  <ellipse cx="32" cy="18" rx="5" ry="9" fill="#f9a8d4" transform="rotate(225 32 32)"/>
+  <ellipse cx="32" cy="18" rx="5" ry="9" fill="#f9a8d4" transform="rotate(270 32 32)"/>
+  <ellipse cx="32" cy="18" rx="5" ry="9" fill="#f9a8d4" transform="rotate(315 32 32)"/>
+  <!-- Center circle -->
+  <circle cx="32" cy="32" r="8" fill="#e879b0"/>
+  <!-- Small heart in center -->
+  <path d="M32 35.5 C32 35.5 26 31 26 27.5 C26 25.5 27.5 24 29.5 24 C30.8 24 32 25 32 25 C32 25 33.2 24 34.5 24 C36.5 24 38 25.5 38 27.5 C38 31 32 35.5 32 35.5Z" fill="#fff" opacity="0.9"/>
+</svg>

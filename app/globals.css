@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap');
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    background: linear-gradient(135deg, #FFF0F5 0%, #FFF5F8 50%, #FFF0FA 100%);
+    min-height: 100vh;
+    font-family: 'Nunito', ui-rounded, system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/70 backdrop-blur-md border border-white/50;
+  }
+
+  /* Memory cards get a soft lavender-blush tint to visually separate them */
+  .glass-card {
+    @apply backdrop-blur-md border border-white/60 rounded-2xl shadow-md;
+    background: linear-gradient(145deg, rgba(255, 240, 250, 0.85) 0%, rgba(237, 220, 255, 0.75) 100%);
+    font-family: 'Nunito', ui-rounded, system-ui, sans-serif;
+    color: #7c3f6e;
+  }
+
+  .glass-card h3,
+  .glass-card p,
+  .glass-card span,
+  .glass-card label,
+  .glass-card input,
+  .glass-card textarea {
+    font-family: 'Nunito', ui-rounded, system-ui, sans-serif;
+    color: #7c3f6e;
+  }
+
+  .glass-card .text-muted-foreground {
+    color: #b07aa0 !important;
+  }
+
+  .glass-card .text-foreground {
+    color: #7c3f6e !important;
+  }
+
+  .glass-card .text-foreground\/70 {
+    color: #9a6090 !important;
+  }
+
+  .card {
+    @apply glass rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow duration-300;
+  }
+
+  .btn-primary {
+    @apply px-6 py-3 rounded-full bg-gradient-to-r from-peony-dark to-peony-deep text-white font-semibold text-sm shadow-md hover:shadow-lg transition-all duration-200 disabled:opacity-60 disabled:cursor-not-allowed;
+    font-family: 'Nunito', ui-rounded, system-ui, sans-serif;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-3 rounded-xl bg-white/80 border border-peony-light/60 text-peony-deep placeholder-peony-deep/30 focus:outline-none focus:ring-2 focus:ring-peony-dark/30 focus:border-peony-dark/40 transition text-sm;
+    font-family: 'Nunito', ui-rounded, system-ui, sans-serif;
+  }
+
+  .section-title {
+    @apply font-serif text-3xl sm:text-4xl font-bold text-peony-deep mb-3;
+  }
+
+  .section-subtitle {
+    @apply text-peony-deep/60 text-base sm:text-lg font-light;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-peony-dark to-peony-deep bg-clip-text text-transparent;
+  }
+
+  .shadow-glass {
+    box-shadow: 0 8px 32px rgba(231, 84, 128, 0.12), 0 2px 8px rgba(231, 84, 128, 0.08);
+  }
+}
